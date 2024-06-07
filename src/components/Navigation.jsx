@@ -6,7 +6,7 @@ import downArrow from "../images/down-arrow.png";
 const Navigation = () => {
   return (
     <div>
-      <div className="fixed top-0 z-20 flex h-20 w-full items-center justify-between bg-slate-200 px-regular">
+      <div className="fixed top-0 z-30 flex h-20 w-full items-center justify-between bg-slate-200 px-regular">
         <div className="flex items-center justify-center">
           <img src={logo} alt="main logo" />
           <img
