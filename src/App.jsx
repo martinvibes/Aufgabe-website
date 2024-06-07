@@ -11,7 +11,8 @@ import Navigation from "./components/Navigation";
 // import AboutMain from "./components/aboutPage/AboutMain";
 
 import Footer from "./components/Footer";
-import ItSupport from "./components/ItSupport";
+import CloudServices from "./components/CloudServices";
+// import ItSupport from "./components/ItSupport";
 // import CaseStudy from "./components/CaseStudy";
 // import CyberSolutionsPage from "./components/CyberSolutionsPage";
 
@@ -30,7 +31,8 @@ function App() {
         {/* <AboutMain /> */}
         {/* <CaseStudy /> */}
         {/* <CyberSolutionsPage /> */}
-        <ItSupport />
+        {/* <ItSupport /> */}
+        <CloudServices />
         <Footer />
       </div>
     </div>
