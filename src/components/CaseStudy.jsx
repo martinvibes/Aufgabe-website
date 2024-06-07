@@ -7,13 +7,16 @@ import rightArrow from "../images/right-arrow-svg.svg";
 function CaseStudy() {
   return (
     <div className="relative">
-      <img className="my-20 w-full" src={caseHero} alt="hero section" />
-      <div className="absolute inset-0">
-        <div className="my-5 py-9 text-center text-white">
-          <h1 className="text-center text-font40 font-bold">Casestudies</h1>
-          <p className="py-2 text-font20 font-normal">
-            Explore our case studies to learn about our successful projects.
-          </p>
+      <div className="relative">
+        <img className="my-20 w-full" src={caseHero} alt="hero section" />
+        <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
+        <div className="absolute inset-0 z-20">
+          <div className="my-5 py-9 text-center text-white">
+            <h1 className="text-center text-font40 font-bold">Casestudies</h1>
+            <p className="py-2 text-font20 font-normal">
+              Explore our case studies to learn about our successful projects.
+            </p>
+          </div>
         </div>
       </div>
       <CaseBox />

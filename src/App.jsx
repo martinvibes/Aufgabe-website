@@ -11,7 +11,8 @@ import Navigation from "./components/Navigation";
 // import AboutMain from "./components/aboutPage/AboutMain";
 
 import Footer from "./components/Footer";
-import CaseStudy from "./components/CaseStudy";
+// import CaseStudy from "./components/CaseStudy";
+// import CyberSolutionsPage from "./components/CyberSolutionsPage";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
         // <Faq />
         <TransformIt /> */}
         {/* <AboutMain /> */}
-        <CaseStudy />
+        {/* <CaseStudy /> */}
+        {/* <CyberSolutionsPage /> */}
         <Footer />
       </div>
     </div>

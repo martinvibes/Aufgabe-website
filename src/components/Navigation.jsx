@@ -1,5 +1,5 @@
 import "./navigation.css";
-import logo from "../images/logo.svg";
+import logo from "../images/logo2.svg";
 import textLogo from "../images/aufgabe-logo-text.svg";
 import downArrow from "../images/down-arrow.png";
 
@@ -9,7 +9,11 @@ const Navigation = () => {
       <div className="fixed top-0 z-20 flex h-20 w-full items-center justify-between bg-slate-200 px-regular">
         <div className="flex items-center justify-center">
           <img src={logo} alt="main logo" />
-          <img src={textLogo} alt="text logo" />
+          <img
+            className="ml-1 translate-y-1 transform"
+            src={textLogo}
+            alt="text logo"
+          />
         </div>
         <div>
           <ul className="flex items-center justify-center">
