@@ -2,8 +2,8 @@ import aboutUs from "../images/about-us-right.svg";
 
 function AboutUs() {
   return (
-    <div className="bg-navBtn mb-[60px] flex items-center justify-between">
-      <div className="ml-regular">
+    <div className="bg-navBtn grid grid-cols-1 gap-4 md:grid-cols-2">
+      <div className="md:ml-regular p-5 md:mt-20">
         <h1 className="text-font32 font-bold text-white">About Us</h1>
         <p className="text-font20 line my-3 font-normal leading-9 text-white">
           At Aufgabe, we are dedicated to providing top-tier cloud solutions{" "}
@@ -16,7 +16,7 @@ function AboutUs() {
           Learn More
         </button>
       </div>
-      <img src={aboutUs} alt="about us image" />
+      <img className="w-full" src={aboutUs} alt="about us image" />
     </div>
   );
 }

@@ -18,6 +18,9 @@ export default {
         solutionBg: "#FAFAFA ",
         midBlack: "#111011 ",
         lightGray: "#E0E0E0 ",
+        footerColor: "#191C3C ",
+        linear1: "#0075ff",
+        linear2: "#191c3c",
       },
       width: {
         heroBtnW: "158px",
@@ -25,6 +28,7 @@ export default {
         solution: "388px",
         chooseUsW: "489px",
         chooseUs: "1116px",
+        faqW: "967px",
       },
       height: {
         heroBtnH: "52px",

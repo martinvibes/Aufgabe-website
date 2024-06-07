@@ -1,17 +1,16 @@
-import React from "react";
 import cloudIcon from "../images/cloud-upload.png";
 import rightArrow from "../images/right-arrow-svg.svg";
 
 const OurSolutions = () => {
   return (
     <div>
-      <div className="px-regular h-solutionH bg-solutionBg pt-[60px]">
+      <div className="px-regular bg-solutionBg py-20">
         <h1 className="text-font32 font-bold">Our solutions</h1>
         <h3 className="text-font24 text-trustedH1 pb-5 font-normal">
           Innovative solutions to secure and empower your business.
         </h3>
-        <div className="flex items-center justify-between">
-          <div className="h-solutionInH w-solution border-lightGray hover:bg-navBtn group rounded-lg border bg-white px-[36px] py-[33.5px] transition-all duration-500">
+        <div className="grid grid-cols-1 gap-y-8 md:grid-cols-2 md:gap-x-8 lg:grid-cols-3 lg:gap-x-16">
+          <div className="border-lightGray hover:bg-navBtn group rounded-lg border bg-white px-[36px] py-[33.5px] transition-all duration-500">
             <img src={cloudIcon} alt="cloud upload icon" />
             <h2 className="text-font24 pt-p12 pb-2 font-bold group-hover:text-white">
               Cloud Imigrant
@@ -31,7 +30,7 @@ const OurSolutions = () => {
             </div>
           </div>
 
-          <div className="h-solutionInH hover:bg-navBtn border-lightGray w-solution group rounded-lg border bg-white px-[36px] py-[33.5px] transition-all duration-500">
+          <div className="hover:bg-navBtn border-lightGray group rounded-lg border bg-white px-[36px] py-[33.5px] transition-all duration-500">
             <img src={cloudIcon} alt="cloud upload icon" />
             <h2 className="text-font24 pt-p12 pb-2 font-bold group-hover:text-white">
               Data Protection
@@ -51,7 +50,7 @@ const OurSolutions = () => {
             </div>
           </div>
 
-          <div className="h-solutionInH hover:bg-navBtn border-lightGray w-solution group rounded-lg border bg-white px-[36px] py-[33.5px] transition-all duration-200 hover:text-white">
+          <div className="hover:bg-navBtn border-lightGray group rounded-lg border bg-white px-[36px] py-[33.5px] transition-all duration-200 hover:text-white">
             <img src={cloudIcon} alt="cloud upload icon" />
             <h2 className="text-font24 pt-p12 pb-2 font-bold group-hover:text-white">
               Managed IT Services

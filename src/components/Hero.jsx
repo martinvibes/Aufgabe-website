@@ -5,7 +5,7 @@ import aws from "../images/aws.svg";
 function Hero() {
   return (
     <div className="relative">
-      <img className="h-full w-full" src={heroImage} alt="hero image" />
+      <img className="mt-10 h-full w-full" src={heroImage} alt="hero image" />
       <div className="absolute inset-0 flex items-center justify-between">
         <div className="pl-regular left-10 text-white">
           <img src={aws} alt="aws logo" />
