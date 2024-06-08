@@ -41,7 +41,7 @@ function OurMission() {
             </p>
           </div>
         </div>
-        <div className="flex items-start items-center justify-center space-x-4">
+        <div className="flex items-center justify-center space-x-4">
           <span className="h-[10.8rem] w-1 bg-navBtn"></span>
           <div>
             <h1 className="text-font24 font-bold">Our Vision</h1>
