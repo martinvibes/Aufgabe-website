@@ -25,20 +25,14 @@ const faqData = [
   },
 ];
 
-function FaqItem({ question, answer }) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleOpen = () => {
-    setIsOpen(!isOpen);
-  };
-
+function FaqItem({ question, answer, isOpen, toggleOpen }) {
   return (
     <div className="pb-1">
       <div
         onClick={toggleOpen}
         className="flex h-[68px] cursor-pointer items-center justify-between border-b-2 transition-all duration-300"
       >
-        <h3 className="text-font20 text-midBlack font-semibold">{question}</h3>
+        <h3 className="text-font20 font-semibold text-midBlack">{question}</h3>
         <img
           className={`transform transition-transform duration-300 ${isOpen ? "rotate-180" : "rotate-0"} `}
           src={downArrow}
@@ -46,7 +40,7 @@ function FaqItem({ question, answer }) {
         />
       </div>
       {isOpen && (
-        <p className="bg-solutionBg -mt-2 px-6 py-8 text-gray-700 transition-all duration-300">
+        <p className="-mt-2 bg-solutionBg px-6 py-8 text-gray-700 transition-all duration-300">
           {answer}
         </p>
       )}
@@ -57,22 +51,36 @@ function FaqItem({ question, answer }) {
 FaqItem.propTypes = {
   question: PropTypes.string.isRequired,
   answer: PropTypes.string.isRequired,
+  isOpen: PropTypes.bool.isRequired,
+  toggleOpen: PropTypes.func.isRequired,
 };
 
 function Faq() {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const handleToggle = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
   return (
     <div className="max mx-auto my-[60px] h-[375px] max-w-4xl px-10 lg:px-0">
       <div className="text-center">
-        <h1 className="text-font32 text-midBlack font-bold">
+        <h1 className="text-font32 font-bold text-midBlack">
           Frequently Asked Question
         </h1>
-        <p className="text-font24 text-trustedH1 mb-5 font-normal">
+        <p className="mb-5 text-font24 font-normal text-trustedH1">
           Innovative solutions to secure and empower your business.
         </p>
       </div>
       <div>
         {faqData.map((item, index) => (
-          <FaqItem key={index} question={item.question} answer={item.answer} />
+          <FaqItem
+            key={index}
+            question={item.question}
+            answer={item.answer}
+            isOpen={openIndex === index}
+            toggleOpen={() => handleToggle(index)}
+          />
         ))}
       </div>
     </div>
