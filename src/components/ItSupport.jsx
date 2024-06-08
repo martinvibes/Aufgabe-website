@@ -88,27 +88,27 @@ function SupportSolutionsSec() {
           </h3>
           <div className="mt-9 flex items-center text-font20 font-normal">
             <img className="mr-2" src={pause} alt="pause icon" />
-            <h2>Security Compliance</h2>
+            <h2>Help Desk Support</h2>
           </div>
           <div className="mt-9 flex items-center text-font20 font-normal">
             <img className="mr-2" src={pause} alt="pause icon" />
-            <h2>Security Compliance</h2>
+            <h2>Network Monitoring and Management</h2>
           </div>
           <div className="mt-9 flex items-center text-font20 font-normal">
             <img className="mr-2" src={pause} alt="pause icon" />
-            <h2>Security Compliance</h2>
+            <h2>Software and Hardware Installation</h2>
           </div>
           <div className="mt-9 flex items-center text-font20 font-normal">
             <img className="mr-2" src={pause} alt="pause icon" />
-            <h2>Security Compliance</h2>
+            <h2>Security Patch Management</h2>
           </div>
           <div className="mt-9 flex items-center text-font20 font-normal">
             <img className="mr-2" src={pause} alt="pause icon" />
-            <h2>Security Compliance</h2>
+            <h2>Remote Desktop Support</h2>
           </div>
           <div className="mt-9 flex items-center text-font20 font-normal">
             <img className="mr-2" src={pause} alt="pause icon" />
-            <h2>Security Compliance</h2>
+            <h2>IT Consultation and Planning</h2>
           </div>
         </div>
       </div>

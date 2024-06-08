@@ -21,18 +21,26 @@ function Footer() {
         </div>
         <div>
           <h1 className="font-semi-bold text-font24">COMPANY</h1>
-          <p className="my-3 text-font20">Home</p>
+          <p className="my-3 text-font20">
+            <a href="/">Home</a>
+          </p>
           <p className="my-3 cursor-pointer text-font20">About Us</p>
         </div>
         <div>
           <h1 className="font-semi-bold text-font24">SOLUTIONS</h1>
           <p className="my-3 text-font20">Cloud Services</p>
-          <p className="text-font20">CyberSeurity</p>
-          <p className="my-3 text-font20">IT Support</p>
+          <p className="text-font20">
+            <a href="/cyber-solution">CyberSeurity</a>{" "}
+          </p>
+          <p className="my-3 text-font20">
+            <a href="/it-support">IT Support</a>
+          </p>
         </div>
         <div>
           <h1 className="font-semi-bold text-font24">RESOURCES</h1>
-          <p className="my-3 cursor-pointer text-font20">Case Studies</p>
+          <p className="my-3 cursor-pointer text-font20">
+            <a href="/caseStudies">Case Studies</a>
+          </p>
           <p className="text-font20">Blog</p>
         </div>
         <div>

@@ -3,3 +3,8 @@ li {
   font-size: 20px;
   cursor: pointer;
 }
+
+.hover-orange {
+  filter: invert(46%) sepia(100%) saturate(2692%) hue-rotate(336deg)
+    brightness(103%) contrast(103%);
+}

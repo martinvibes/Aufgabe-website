@@ -29,6 +29,7 @@ export default {
         chooseUsW: "489px",
         chooseUs: "1116px",
         faqW: "967px",
+        contactForm: "908px",
       },
       height: {
         heroBtnH: "52px",

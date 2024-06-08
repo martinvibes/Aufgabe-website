@@ -9,7 +9,6 @@ function CaseStudy() {
     <div className="relative">
       <div className="relative">
         <img className="my-20 w-full" src={caseHero} alt="hero section" />
-        <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
         <div className="absolute inset-0 z-20">
           <div className="my-5 py-9 text-center text-white">
             <h1 className="text-center text-font40 font-bold">Casestudies</h1>
