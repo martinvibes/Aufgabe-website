@@ -10,13 +10,23 @@ function Footer() {
       <div className="grid grid-cols-1 border-b-2 bg-footerColor px-[4.5rem] py-12 text-white sm:text-center md:grid-cols-2 lg:grid-cols-5">
         <div className="sm:mx-auto">
           <div className="flex">
-            <img src={logo} alt="logo" />
-            <img src={textLogo} alt="text logo" />
+            <a href="/">
+              <img src={logo} alt="logo" />
+            </a>
+            <a href="/">
+              <img src={textLogo} alt="text logo" />
+            </a>
           </div>
-          <div className="my-4 flex">
-            <img src={linkedIn} alt="instagram logo" />
-            <img className="mx-6" src={facebook} alt="instagram logo" />
-            <img src={x} alt="instagram logo" />
+          <div className="mt-5 flex">
+            <a href="/">
+              <img src={linkedIn} alt="instagram logo" />
+            </a>
+            <a href="/">
+              <img className="mx-6" src={facebook} alt="instagram logo" />
+            </a>
+            <a href="/">
+              <img src={x} alt="instagram logo" />
+            </a>
           </div>
         </div>
         <div>
