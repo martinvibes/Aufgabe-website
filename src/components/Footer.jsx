@@ -7,7 +7,7 @@ import x from "../images/twitter.svg";
 function Footer() {
   return (
     <footer className="bg-footerColor">
-      <div className="grid grid-cols-1 border-b-2 bg-footerColor px-[4.5rem] py-12 text-white sm:text-center md:grid-cols-2 lg:grid-cols-5">
+      <div className="grid grid-cols-1 border-b-2 bg-footerColor px-[4.5rem] py-12 text-white sm:text-center md:grid-cols-2 md:text-left lg:grid-cols-5">
         <div className="sm:mx-auto">
           <div className="flex">
             <a href="/">
