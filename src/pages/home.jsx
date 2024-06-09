@@ -4,6 +4,7 @@ import OurSolutions from "../components/OurSolutions";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Faq from "../components/Faq";
 import TransformIt from "../components/TransformIt";
+import AboutUs from "../components/AboutUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <TrustedPage />
       <OurSolutions />
       <WhyChooseUs />
+      <AboutUs />
 
       <Faq />
       <TransformIt />

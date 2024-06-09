@@ -2,13 +2,9 @@ import aboutUs from "../images/about-us-right.svg";
 
 function AboutUs() {
   return (
-    <div className="relative grid grid-cols-1 gap-4 md:grid-cols-2">
-      {/* Text Container */}
+    <div className="relative grid grid-cols-1 bg-navBtn md:grid-cols-1 lg:grid-cols-2">
       <div className="relative p-5 md:ml-regular md:mt-20">
-        {/* Background Color */}
-        <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
-        {/* Text Content */}
-        <div className="relative z-20">
+        <div className="">
           <h1 className="text-font32 font-bold text-white">About Us</h1>
           <p className="line my-3 text-font20 font-normal leading-9 text-white">
             At Aufgabe, we are dedicated to providing top-tier cloud solutions{" "}
@@ -22,11 +18,8 @@ function AboutUs() {
           </button>
         </div>
       </div>
-      {/* Image Container */}
       <div className="relative">
-        {/* Background Color */}
         <div className="absolute inset-0 z-10 bg-navBtn opacity-75"></div>
-        {/* Image */}
         <img
           className="relative z-20 w-full"
           src={aboutUs}

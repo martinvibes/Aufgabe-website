@@ -17,7 +17,7 @@ function AboutMain() {
         <div className="absolute inset-0 z-20 flex items-center justify-center">
           <div className="my-5 py-9 text-center text-white">
             <h1 className="text-center text-font40 font-bold">About Us</h1>
-            <p className="py-2 text-font20 font-normal">
+            <p className="font-body py-2 text-font20 font-normal">
               At Aufgabe, we are dedicated to providing top-tier cloud <br />
               solutions and cybersecurity services that empower businesses to
               <br /> thrive in the digital age.
