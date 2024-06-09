@@ -6,6 +6,7 @@ import migration from "../images/cloudServices/migration.png";
 import optimization from "../images/cloudServices/optimization.png";
 import planning from "../images/cloudServices/planning.png";
 import aws from "../images/cloudServices/awsDark.svg";
+import heroSide from "../images/hero-side.png";
 
 const CloudServices = () => {
   return (
@@ -169,7 +170,7 @@ function ReliableIt() {
         </div>
         <img
           className="absolute right-0 top-0 h-full"
-          src={"heroSide"}
+          src={heroSide}
           alt="hero image"
         />
       </div>

@@ -2,7 +2,7 @@ import aboutUs from "../images/about-us-right.svg";
 
 function AboutUs() {
   return (
-    <div className="relative grid grid-cols-1 bg-navBtn md:grid-cols-1 lg:grid-cols-2">
+    <div className="relative grid grid-cols-1 bg-navBtn md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2">
       <div className="relative p-5 md:ml-regular md:mt-20">
         <div className="">
           <h1 className="text-font32 font-bold text-white">About Us</h1>
@@ -21,7 +21,7 @@ function AboutUs() {
       <div className="relative">
         <div className="absolute inset-0 z-10 bg-navBtn opacity-75"></div>
         <img
-          className="relative z-20 w-full"
+          className="relative z-20 h-96 w-full"
           src={aboutUs}
           alt="about us image"
         />

@@ -3,7 +3,7 @@ import cloud from "../images/cloud-upload.png";
 const WhyChooseUs = () => {
   return (
     <div className="my-[60px] flex items-center justify-center">
-      <div className="w-chooseUs mx-auto">
+      <div className="mx-auto w-chooseUs">
         <div className="text-center">
           <h1 className="text-font32 font-bold">Why Choose Us</h1>
           <p className="text-font24 text-trustedH1">
@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
         <div className="inset-2 grid grid-cols-1 justify-center gap-3 px-12 md:grid-cols-2 lg:px-0">
           <div className="my-5">
             <img src={cloud} alt="cloud upload icon" />
-            <h1 className="text-font24 text-midBlack my-3 font-bold">
+            <h1 className="my-3 text-font24 font-bold text-midBlack">
               Expertise
             </h1>
             <p className="text-font20 text-midBlack">
@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
 
           <div className="my-5">
             <img src={cloud} alt="cloud upload icon" />
-            <h1 className="text-font24 text-midBlack my-3 font-bold">
+            <h1 className="my-3 text-font24 font-bold text-midBlack">
               Customization
             </h1>
             <p className="text-font20 text-midBlack">
@@ -36,7 +36,7 @@ const WhyChooseUs = () => {
 
           <div className="my-5">
             <img src={cloud} alt="cloud upload icon" />
-            <h1 className="text-font24 text-midBlack my-3 font-bold">
+            <h1 className="my-3 text-font24 font-bold text-midBlack">
               Reliability
             </h1>
             <p className="text-font20 text-midBlack">
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
 
           <div className="my-5">
             <img src={cloud} alt="cloud upload icon" />
-            <h1 className="text-font24 text-midBlack my-3 font-bold">
+            <h1 className="my-3 text-font24 font-bold text-midBlack">
               Support
             </h1>
             <p className="text-font20 text-midBlack">
