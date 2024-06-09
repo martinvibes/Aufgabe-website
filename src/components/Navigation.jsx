@@ -41,13 +41,13 @@ const Navigation = () => {
             </div>
 
             <ul className="absolute left-0 hidden w-40 rounded bg-slate-100 shadow-lg group-focus-within:block group-hover:block">
-              <li className="whitespace-nowrap border-b px-4 py-2 hover:bg-gray-300">
+              <li className="whitespace-nowrap rounded border-b px-4 py-2 hover:bg-gray-300">
                 <a href="/cloud-services">Cloud Services</a>
               </li>
-              <li className="border-b px-4 py-2 hover:bg-gray-300">
+              <li className="whitespace-nowrap rounded border-b px-4 py-2 hover:bg-gray-300">
                 <a href="/cyber-solution">Cybersecurity</a>
               </li>
-              <li className="px-4 py-2 hover:bg-gray-300">
+              <li className="whitespace-nowrap rounded px-4 py-2 hover:bg-gray-300">
                 <a href="/it-support">IT Support</a>
               </li>
             </ul>
