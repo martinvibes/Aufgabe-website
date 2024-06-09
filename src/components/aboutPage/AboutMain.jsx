@@ -7,15 +7,22 @@ import expert4 from "../../images/about/expert04.svg";
 function AboutMain() {
   return (
     <div className="relative">
-      <img className="my-16 w-full" src={hero} alt="hero section" />
-      <div className="absolute inset-0">
-        <div className="my-5 py-9 text-center text-white">
-          <h1 className="text-center text-font40 font-bold">About Us</h1>
-          <p className="py-2 text-font20 font-normal">
-            At Aufgabe, we are dedicated to providing top-tier cloud <br />{" "}
-            solutions and cybersecurity services that empower businesses to{" "}
-            <br /> thrive in the digital age.
-          </p>
+      <div className="relative">
+        <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
+        <img
+          className="relative z-0 my-16 w-full"
+          src={hero}
+          alt="hero section"
+        />
+        <div className="absolute inset-0 z-20 flex items-center justify-center">
+          <div className="my-5 py-9 text-center text-white">
+            <h1 className="text-center text-font40 font-bold">About Us</h1>
+            <p className="py-2 text-font20 font-normal">
+              At Aufgabe, we are dedicated to providing top-tier cloud <br />
+              solutions and cybersecurity services that empower businesses to
+              <br /> thrive in the digital age.
+            </p>
+          </div>
         </div>
       </div>
       <OurMission />
