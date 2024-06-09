@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Lato", "sans-serif"],
+      },
       padding: {
         regular: "72px",
         p20: "20px",
