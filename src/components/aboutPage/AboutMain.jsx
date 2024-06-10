@@ -81,8 +81,8 @@ function OurMission() {
 function OurJourney() {
   return (
     <div className="flex justify-center bg-solutionBg py-8">
-      <div className="flex w-full flex-col space-y-8 p-10 md:w-2/3 md:flex-row md:space-x-20 md:space-y-0 md:p-0">
-        <div className="flex items-start space-x-4">
+      <div className="flex w-full flex-col space-y-8 p-10 md:w-2/3 md:space-x-20 md:p-0 lg:flex-row lg:space-y-0">
+        <div className="flex items-start space-x-4 text-center lg:text-left">
           <div>
             <h1 className="text-font24 font-bold">Our Journey</h1>
             <p className="text-font20 text-midBlack">
@@ -96,8 +96,8 @@ function OurJourney() {
             </p>
           </div>
         </div>
-        <div className="flex items-start space-x-4">
-          <div className="ml-6 grid grid-cols-2 gap-5 gap-y-8">
+        <div className="flex space-x-4">
+          <div className="mx-auto ml-6 grid w-fit grid-cols-2 gap-5 gap-y-8">
             <div>
               <h1 className="text-font32 font-medium">1200+</h1>
               <p className="-mt-2 text-font20 font-normal">Satisfied clients</p>
