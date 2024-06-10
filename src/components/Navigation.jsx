@@ -141,7 +141,7 @@ const Navigation = () => {
           <li className="px-4 py-2 transition-all duration-200 hover:text-btnHover">
             <a href="/about">About Us</a>
           </li>
-          <li className="px-4 py-2 transition-all duration-200 hover:text-btnHover">
+          <li className="px-4 pb-8 pt-5 transition-all duration-200 hover:text-btnHover">
             <a
               href="/contact"
               className="my-5 whitespace-nowrap rounded-lg bg-navBtn px-4 py-2 font-medium text-white transition-all duration-500 ease-in-out hover:bg-btnHover"
