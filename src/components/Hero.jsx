@@ -7,21 +7,25 @@ function Hero() {
     <div className="relative">
       <img className="mt-10 h-full w-full" src={heroImage} alt="hero image" />
       <div className="absolute inset-0 flex items-center justify-between">
-        <div className="pl-regular left-10 text-white">
-          <img src={aws} alt="aws logo" />
-          <h1 className="text-font40 w-heroH1 whitespace-nowrap font-bold">
+        <div className="left-10 pl-regular text-white">
+          <img className="w-[100px] lg:w-[143px]" src={aws} alt="aws logo" />
+          <h1 className="text-3xl font-bold lg:text-font40">
             Unlock Ultimate Security and <br /> Performance with Our Cloud
             Solutions.
           </h1>
-          <p className="text-font24 py-2 font-normal">
+          <p className="flex-wrap py-2 text-font20 font-normal lg:text-font24">
             Experience seamless, secure, and scalable cloud solutions <br />{" "}
             designed to safeguard your data and boost your performance.
           </p>
-          <button className="w-heroBtnW h-heroBtnH hover:bg-btnHover text-font20 bg-navBtn mt-5 whitespace-nowrap rounded-lg font-medium transition-all duration-500 ease-in-out">
+          <button className="mt-5 h-heroBtnH w-heroBtnW whitespace-nowrap rounded-lg bg-navBtn text-font20 font-medium transition-all duration-500 ease-in-out hover:bg-btnHover">
             Get Started
           </button>
         </div>
-        <img className="h-full" src={heroSide} alt="hero image" />
+        <img
+          className="absolute right-0 top-0 h-full"
+          src={heroSide}
+          alt="hero image"
+        />
       </div>
     </div>
   );

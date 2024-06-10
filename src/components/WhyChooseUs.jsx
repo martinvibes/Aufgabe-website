@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="inset-2 grid grid-cols-1 justify-center gap-3 px-12 md:grid-cols-2 lg:px-0">
+        <div className="inset-2 grid grid-cols-1 justify-center gap-3 px-12 md:grid-cols-2 lg:px-10">
           <div className="my-5">
             <img src={cloud} alt="cloud upload icon" />
             <h1 className="my-3 text-font24 font-bold text-midBlack">
