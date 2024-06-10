@@ -30,7 +30,7 @@ function CaseStudy() {
 
 function CaseBox() {
   return (
-    <div className="mx-[5rem] my-12 grid grid-cols-1 gap-10 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+    <div className="mx-[5rem] my-12 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
       <div className="group z-10 rounded-lg border p-7 transition-all duration-200 hover:bg-navBtn">
         <img className="" src={amdLogo} alt="icons logo" />
         <h1 className="text-font24 font-bold text-midBlack group-hover:text-white">

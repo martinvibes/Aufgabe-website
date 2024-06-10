@@ -10,17 +10,20 @@ function AboutMain() {
       <div className="relative">
         <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
         <img
-          className="relative z-0 my-16 w-full"
+          className="relative z-0 my-16 max-w-full md:h-full lg:w-full"
           src={hero}
           alt="hero section"
         />
         <div className="absolute inset-0 z-20 flex items-center justify-center">
-          <div className="my-5 py-9 text-center text-white">
-            <h1 className="text-center text-font40 font-bold">About Us</h1>
-            <p className="font-body py-2 text-font20 font-normal">
-              At Aufgabe, we are dedicated to providing top-tier cloud <br />
+          <div className="my-5 py-10 text-center text-white md:py-9">
+            <h1 className="text-center text-font24 font-bold lg:text-font40">
+              About Us
+            </h1>
+            <p className="font-body flex flex-wrap py-2 text-[17px] font-normal lg:text-font20">
+              At Aufgabe, we are dedicated to providing top-tier cloud{" "}
+              <br className="hidden lg:block" />
               solutions and cybersecurity services that empower businesses to
-              <br /> thrive in the digital age.
+              <br className="hidden lg:block" /> thrive in the digital age.
             </p>
           </div>
         </div>
@@ -35,16 +38,21 @@ function AboutMain() {
 function OurMission() {
   return (
     <div className="mb-16 flex justify-center">
-      <div className="flex w-2/3 space-x-20 sm:flex-col md:flex-row">
+      <div className="flex flex-col space-y-8 px-8 md:flex-row md:space-x-20 md:space-y-0 lg:p-0">
         <div className="flex items-center justify-center space-x-4">
           <span className="h-[10.8rem] w-1 bg-navBtn"></span>
           <div>
             <h1 className="text-font24 font-bold">Our Mission</h1>
-            <p className="whitespace-nowrap text-font20 text-midBlack">
-              We aim to enhance business operations through <br /> innovative
-              technology, secure practices, and <br /> unparalleled support. Our
-              core values innovation, <br /> security, customer-centricity, and
-              integrity guide <br /> everything we do.
+            <p className="text-font20 text-midBlack">
+              We aim to enhance business operations through{" "}
+              <br className="hidden lg:block" />
+              innovative technology, secure practices, and{" "}
+              <br className="hidden lg:block" />
+              unparalleled support. Our core values innovation,{" "}
+              <br className="hidden lg:block" />
+              security, customer-centricity, and integrity guide{" "}
+              <br className="hidden lg:block" />
+              everything we do.
             </p>
           </div>
         </div>
@@ -52,12 +60,16 @@ function OurMission() {
           <span className="h-[10.8rem] w-1 bg-navBtn"></span>
           <div>
             <h1 className="text-font24 font-bold">Our Vision</h1>
-            <p className="whitespace-nowrap text-font20 text-midBlack">
-              Our vision is to be the leading provider of cloud <br /> solutions
-              and cybersecurity services globally, <br /> recognized for our
-              commitment to excellence and <br /> customer satisfaction. We aim
-              to create a safer digital <br /> world where businesses can
-              operate with agility.
+            <p className="text-font20 text-midBlack">
+              Our vision is to be the leading provider of cloud{" "}
+              <br className="hidden lg:block" />
+              solutions and cybersecurity services globally,{" "}
+              <br className="hidden lg:block" />
+              recognized for our commitment to excellence and{" "}
+              <br className="hidden lg:block" />
+              customer satisfaction. We aim to create a safer digital{" "}
+              <br className="hidden lg:block" />
+              world where businesses can operate with agility.
             </p>
           </div>
         </div>
@@ -69,14 +81,18 @@ function OurMission() {
 function OurJourney() {
   return (
     <div className="flex justify-center bg-solutionBg py-8">
-      <div className="flex w-2/3 space-x-20">
+      <div className="flex w-full flex-col space-y-8 p-10 md:w-2/3 md:flex-row md:space-x-20 md:space-y-0 md:p-0">
         <div className="flex items-start space-x-4">
           <div>
             <h1 className="text-font24 font-bold">Our Journey</h1>
             <p className="text-font20 text-midBlack">
-              Since our founding in 2010, we have achieved <br /> significant
-              milestones. Our journey is defined by <br /> growth, adaptation,
-              and a relentless pursuit of <br /> excellence.
+              Since our founding in 2010, we have achieved{" "}
+              <br className="hidden lg:block" />
+              significant milestones. Our journey is defined by{" "}
+              <br className="hidden lg:block" />
+              growth, adaptation, and a relentless pursuit of{" "}
+              <br className="hidden lg:block" />
+              excellence.
             </p>
           </div>
         </div>
@@ -117,20 +133,20 @@ function MeetExperts() {
         <p className="mb-7 text-font24 text-trustedH1">
           Dedicated Professionals Committed to Your Success
         </p>
-        <div className="mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-10">
-          <div>
+        <div className="mx-8 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mx-auto">
             <img src={expert1} alt="user pic" />
             <h1 className="text-font24 font-bold text-midBlack">John Smith</h1>
             <h2 className="text-font20 font-normal text-midBlack">CEO</h2>
           </div>
-          <div>
+          <div className="mx-auto">
             <img src={expert2} alt="user pic" />
             <h1 className="text-font24 font-bold text-midBlack">
               Emily Johnson
             </h1>
             <h2 className="text-font20 font-normal text-midBlack">CTO</h2>
           </div>
-          <div>
+          <div className="mx-auto">
             <img src={expert3} alt="user pic" />
             <h1 className="text-font24 font-bold text-midBlack">
               Mihael Brown
@@ -139,7 +155,7 @@ function MeetExperts() {
               Head of Cybersecurity
             </h2>
           </div>
-          <div>
+          <div className="mx-auto">
             <img src={expert4} alt="user pic" />
             <h1 className="text-font24 font-bold text-midBlack">
               Sarah Davies

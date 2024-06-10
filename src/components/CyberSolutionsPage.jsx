@@ -58,7 +58,7 @@ function CyberMatters() {
             </p>
           </div>
           <div>
-            <p className="text-font20 font-normal leading-9 text-midBlack">
+            <p className="pt-4 text-font20 font-normal leading-9 text-midBlack lg:pt-0">
               Investing in cybersecurity is not just about protecting data,
               it&apos;s about <br /> safeguarding the future of your business.
               By implementing robust <br /> security measures, you can mitigate
@@ -74,19 +74,22 @@ function CyberMatters() {
 
 function CyberServices() {
   return (
-    <div className="grid grid-cols-1 bg-solutionBg md:grid-cols-2">
+    <div className="grid max-w-full grid-cols-1 bg-solutionBg md:grid-cols-2">
       <div className="relative">
-        <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
-        <img className="w-full" src={cyberServices} alt="hero section" />
-        <div className="absolute inset-0 z-20">
-          <div className="mt-28 text-center text-white">
-            <h1 className="text-center text-font40 font-bold">
-              Our Cybersecurity Services
-            </h1>
-            <p className="py-2 text-font20 font-normal">
-              Innovative solutions to secure and empower <br /> your business.
-            </p>
-          </div>
+        <div className="absolute inset-0 bg-linear2 opacity-75"></div>
+        <img
+          className="h-full w-full object-cover"
+          src={cyberServices}
+          alt="hero section"
+        />
+
+        <div className="absolute inset-0 pt-24 text-white lg:text-center">
+          <h1 className="text-center text-font32 font-bold lg:text-font40">
+            Our Cybersecurity Services
+          </h1>
+          <p className="py-2 text-center text-font20 font-normal">
+            Innovative solutions to secure and empower <br /> your business.
+          </p>
         </div>
       </div>
 
@@ -141,8 +144,8 @@ function OurApproach() {
 function FourBoxesWithImage() {
   return (
     <div className="container mx-auto p-4">
-      <div className="mx-16 my-2 grid grid-cols-3 gap-4">
-        <div className="">
+      <div className="gri mx-16 my-2 grid gap-4 md:grid-cols-1 md:text-center lg:grid-cols-1 lg:text-left xl:grid-cols-3">
+        <div className="lg:flex lg:items-center lg:justify-center xl:block">
           <div className="p-4">
             <h1 className="text-font24 font-bold">
               Risk Assessment and Analysis
@@ -156,7 +159,7 @@ function FourBoxesWithImage() {
               tailored cybersecurity solutions.
             </p>
           </div>
-          <div className="mt-12 p-4">
+          <div className="mt-2 p-4 lg:mt-12">
             <h1 className="text-font24 font-bold">
               Customized Security Solutions
             </h1>
@@ -172,7 +175,7 @@ function FourBoxesWithImage() {
         </div>
 
         {/* Top Middle Box (Image) */}
-        <div className="flex items-center justify-center">
+        <div className="lg:flex lg:items-center lg:justify-center">
           <img
             src={approachImage}
             alt="Middle"
@@ -180,7 +183,7 @@ function FourBoxesWithImage() {
           />
         </div>
 
-        <div className="ml-16">
+        <div className="text-center md:ml-16 lg:flex lg:items-center lg:justify-center lg:text-left xl:block">
           <div className="p-4">
             <h1 className="text-font24 font-bold">Proactive Monitoring</h1>
             <p className="text-font20 font-normal leading-9">
@@ -192,7 +195,7 @@ function FourBoxesWithImage() {
             </p>
           </div>
 
-          <div className="mt-12 p-4">
+          <div className="p-4 lg:mt-12">
             <h1 className="text-font24 font-bold">Continuous Improvement</h1>
             <p className="text-font20 font-normal leading-9">
               Cybersecurity threats are constantly <br /> evolving, so we

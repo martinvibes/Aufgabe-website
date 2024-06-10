@@ -39,8 +39,8 @@ const ItSupport = () => {
 function SupportSolutions() {
   return (
     <div className="mb-20 mt-16 flex items-center justify-center">
-      <div className="grid grid-cols-1 space-x-20 md:grid-cols-2">
-        <div className="mr-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:space-x-20">
+        <div className="mr-10 pl-8 md:order-2 md:mt-5 lg:order-1 lg:text-left">
           <h1 className="text-font32 font-bold">
             Comprehensive IT Support Solutions
           </h1>
@@ -62,9 +62,11 @@ function SupportSolutions() {
           </p>
         </div>
 
-        <div className="">
-          <img className="" src={itSupportHero2} alt="image support" />
-        </div>
+        <img
+          className="text-center md:order-1 lg:order-2 lg:mt-0 lg:pr-7 xl:pr-0"
+          src={itSupportHero2}
+          alt="image support"
+        />
       </div>
     </div>
   );
@@ -73,12 +75,12 @@ function SupportSolutions() {
 function SupportSolutionsSec() {
   return (
     <div className="mb-20 mt-20 flex items-center justify-center">
-      <div className="grid grid-cols-1 space-x-20 md:grid-cols-2">
+      <div className="grid grid-cols-1 space-x-20 px-8 md:grid-cols-1 lg:grid-cols-2">
         <div className="">
           <img className="" src={itSupportHero3} alt="image support" />
         </div>
 
-        <div className="mr-10">
+        <div className="mr-10 mt-5 lg:mt-0">
           <h1 className="text-font32 font-bold">
             Comprehensive IT Support Solutions
           </h1>

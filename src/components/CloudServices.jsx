@@ -41,7 +41,7 @@ const CloudServices = () => {
 
 function MigrateCloud() {
   return (
-    <div className="bg-navBtn py-20 text-center">
+    <div className="bg-navBtn px-[72px] py-3 md:py-20 md:text-center">
       <h1 className="text-font32 font-bold text-white">
         Why Migrate To The Cloud?
       </h1>
@@ -70,7 +70,7 @@ function ToolsUsed() {
         <p className="mb-7 text-font24 text-trustedH1">
           Our approach to protecting your business.
         </p>
-        <div className="mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
+        <div className="mx-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
           <div className="group rounded-lg border px-16 py-20 text-center transition-all duration-300 hover:bg-navBtn">
             <img className="mx-auto" src={aws} alt="user pic" />
             <h1 className="text-font24 font-bold text-midBlack group-hover:text-white">

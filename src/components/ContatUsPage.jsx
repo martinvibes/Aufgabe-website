@@ -22,7 +22,7 @@ const ContatUsPage = () => {
 
 function ContactForm() {
   return (
-    <div className="max mx-auto mb-10 mt-6 max-w-[908px] p-8">
+    <form className="max mx-auto mb-10 mt-6 max-w-[908px] p-8">
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="my-3">
           <label className="mb-1 block text-font20 text-midBlack">
@@ -34,7 +34,7 @@ function ContactForm() {
             placeholder="First Name"
           />
         </div>
-        <div className="ml-8 mt-3">
+        <div className="block w-full md:ml-8 md:mt-3">
           <label className="mb-1 block text-font20 text-midBlack">
             Last Name
           </label>
@@ -64,10 +64,13 @@ function ContactForm() {
           cols={30}
         />
       </div>
-      <button className="duration-400 h-heroBtnH w-heroBtnW whitespace-nowrap rounded-lg bg-navBtn text-font20 font-medium text-white transition-all ease-in-out hover:bg-btnHover">
+      <button
+        type="submit"
+        className="duration-400 h-heroBtnH w-heroBtnW whitespace-nowrap rounded-lg bg-navBtn text-font20 font-medium text-white transition-all ease-in-out hover:bg-btnHover"
+      >
         Submit
       </button>
-    </div>
+    </form>
   );
 }
 
