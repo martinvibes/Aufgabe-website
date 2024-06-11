@@ -40,7 +40,7 @@ function FaqItem({ question, answer, isOpen, toggleOpen }) {
         />
       </div>
       {isOpen && (
-        <p className="-mt-2 bg-solutionBg py-7 text-xs text-gray-700 transition-all duration-300">
+        <p className="-mt-2 bg-solutionBg py-6 text-xs text-gray-700 transition-all duration-300">
           {answer}
         </p>
       )}
@@ -63,7 +63,7 @@ function Faq() {
   };
 
   return (
-    <div className="max md:my-[60px]md: mx-auto h-[375px] max-w-4xl px-8 md:px-10 lg:px-0">
+    <div className="max mb mx-auto my-[60px] h-[375px] max-w-4xl px-8 md:px-10 lg:px-0">
       <div className="text-center">
         <h1 className="text-[1.8rem] font-bold text-midBlack md:text-font32">
           Frequently Asked Question

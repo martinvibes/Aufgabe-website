@@ -5,7 +5,11 @@ import aws from "../images/aws.svg";
 function Hero() {
   return (
     <div className="relative">
-      <img className="mt-20 h-full w-full" src={heroImage} alt="hero image" />
+      <img
+        className="mt-[5.1rem] h-full w-full"
+        src={heroImage}
+        alt="hero image"
+      />
       <div className="absolute inset-0 flex items-center justify-between px-8 md:px-0">
         <div className="left-10 text-white md:pl-regular">
           <img
@@ -27,7 +31,7 @@ function Hero() {
         </div>
 
         <img
-          className="absolute right-0 top-0 h-full"
+          className="absolute right-0 top-0 hidden h-full md:block"
           src={heroSide}
           alt="hero image"
         />

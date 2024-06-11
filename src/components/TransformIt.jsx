@@ -2,7 +2,7 @@ import heroSide from "../images/hero-side.png";
 
 function TransformIt() {
   return (
-    <div className="relative mx-8 mb-16 mt-32 md:mx-[4.5rem]">
+    <div className="relative mx-8 mb-16 mt-40 md:mx-[4.5rem] md:mt-32">
       <div className="w-full rounded-lg bg-gradient-to-r from-linear1 to-linear2 py-44"></div>
       <div className="absolute inset-0">
         <div className="py-8 text-center text-white">
