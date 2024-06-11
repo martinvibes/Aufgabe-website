@@ -20,7 +20,7 @@ const Navigation = () => {
   );
 
   return (
-    <nav className="fixed top-0 z-30 w-full bg-slate-200 px-regular">
+    <nav className="fixed top-0 z-30 mb-3 w-full bg-slate-200 px-8 md:px-regular">
       <div className="flex h-20 items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex">
@@ -32,6 +32,7 @@ const Navigation = () => {
             />
           </a>
         </div>
+
         <div className="lg:hidden">
           <button
             className="focus:outline-none"
@@ -53,6 +54,7 @@ const Navigation = () => {
             </svg>
           </button>
         </div>
+
         <ul
           className={`hidden items-center justify-center lg:flex lg:space-x-8 ${
             isOpen ? "block" : "hidden"

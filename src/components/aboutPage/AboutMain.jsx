@@ -9,13 +9,19 @@ function AboutMain() {
     <div className="relative">
       <div className="relative">
         <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
+        {/* <div className="mt-24 bg-hero-side">Footer</div> */}
         <img
-          className="relative z-0 my-16 max-w-full md:h-full lg:w-full"
+          className="relative z-0 mb-12 mt-20 h-full w-full object-fill md:hidden md:h-full lg:w-full"
+          src={expert1}
+          alt="hero section"
+        />
+        <img
+          className="relative z-0 mb-12 mt-20 hidden h-full w-full object-fill md:block md:h-full lg:w-full"
           src={hero}
           alt="hero section"
         />
         <div className="absolute inset-0 z-20 flex items-center justify-center">
-          <div className="my-5 py-10 text-center text-white md:py-9">
+          <div className="my-5 px-8 py-10 text-center text-white md:py-9">
             <h1 className="text-center text-font24 font-bold lg:text-font40">
               About Us
             </h1>
@@ -38,19 +44,19 @@ function AboutMain() {
 function OurMission() {
   return (
     <div className="mb-16 flex justify-center">
-      <div className="flex flex-col space-y-8 px-8 md:flex-row md:space-x-20 md:space-y-0 lg:p-0">
+      <div className="flex flex-col space-y-8 px-8 md:flex-row md:space-x-20 md:space-y-0 md:px-regular lg:p-0">
         <div className="flex items-center justify-center space-x-4">
           <span className="h-[10.8rem] w-1 bg-navBtn"></span>
           <div>
             <h1 className="text-font24 font-bold">Our Mission</h1>
-            <p className="text-font20 text-midBlack">
-              We aim to enhance business operations through{" "}
+            <p className="text-lg text-midBlack lg:text-font20">
+              We aim to enhance business operations through
               <br className="hidden lg:block" />
-              innovative technology, secure practices, and{" "}
+              innovative technology, secure practices, and
               <br className="hidden lg:block" />
-              unparalleled support. Our core values innovation,{" "}
+              unparalleled support. Our core values innovation,
               <br className="hidden lg:block" />
-              security, customer-centricity, and integrity guide{" "}
+              security, customer-centricity, and integrity guide
               <br className="hidden lg:block" />
               everything we do.
             </p>
@@ -60,7 +66,7 @@ function OurMission() {
           <span className="h-[10.8rem] w-1 bg-navBtn"></span>
           <div>
             <h1 className="text-font24 font-bold">Our Vision</h1>
-            <p className="text-font20 text-midBlack">
+            <p className="text-lg text-midBlack lg:text-font20">
               Our vision is to be the leading provider of cloud{" "}
               <br className="hidden lg:block" />
               solutions and cybersecurity services globally,{" "}
