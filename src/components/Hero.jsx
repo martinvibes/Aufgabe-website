@@ -21,7 +21,7 @@ function Hero() {
             Unlock Ultimate Security and <br /> Performance with Our Cloud
             Solutions.
           </h1>
-          <p className="flex-wrap py-1 text-sm font-normal md:py-2 md:text-font20 lg:text-font24">
+          <p className="flex-wrap py-1 text-sm font-normal md:py-3 md:text-font20 lg:text-font24">
             Experience seamless, secure, and scalable cloud solutions <br />{" "}
             designed to safeguard your data and boost your performance.
           </p>
