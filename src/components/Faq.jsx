@@ -32,7 +32,7 @@ function FaqItem({ question, answer, isOpen, toggleOpen }) {
         onClick={toggleOpen}
         className="flex h-[68px] cursor-pointer items-center justify-between border-b-2 transition-all duration-300"
       >
-        <h3 className="text-font20 font-semibold text-midBlack">{question}</h3>
+        <h3 className="text-lg font-semibold text-midBlack">{question}</h3>
         <img
           className={`transform transition-transform duration-300 ${isOpen ? "rotate-180" : "rotate-0"} `}
           src={downArrow}
@@ -40,7 +40,7 @@ function FaqItem({ question, answer, isOpen, toggleOpen }) {
         />
       </div>
       {isOpen && (
-        <p className="-mt-2 bg-solutionBg py-7 text-gray-700 transition-all duration-300">
+        <p className="-mt-2 bg-solutionBg py-7 text-xs text-gray-700 transition-all duration-300">
           {answer}
         </p>
       )}
@@ -63,12 +63,12 @@ function Faq() {
   };
 
   return (
-    <div className="max mx-auto my-[60px] h-[375px] max-w-4xl px-10 lg:px-0">
+    <div className="max md:my-[60px]md: mx-auto h-[375px] max-w-4xl px-8 md:px-10 lg:px-0">
       <div className="text-center">
-        <h1 className="text-font32 font-bold text-midBlack">
+        <h1 className="text-[1.8rem] font-bold text-midBlack md:text-font32">
           Frequently Asked Question
         </h1>
-        <p className="mb-5 text-font24 font-normal text-trustedH1">
+        <p className="mb-5 text-font20 font-normal text-trustedH1 md:text-font24">
           Innovative solutions to secure and empower your business.
         </p>
       </div>

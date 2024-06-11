@@ -4,7 +4,7 @@ import rightArrow from "../images/right-arrow-svg.svg";
 const OurSolutions = () => {
   return (
     <div>
-      <div className="bg-solutionBg px-regular py-20">
+      <div className="bg-solutionBg px-8 py-20 md:px-regular">
         <h1 className="text-font32 font-bold">Our solutions</h1>
         <h3 className="pb-5 text-font24 font-normal text-trustedH1">
           Innovative solutions to secure and empower your business.

@@ -59,7 +59,7 @@ function Footer() {
           <p className="my-3 text-font20">+234 000 000 000</p>
         </div>
       </div>
-      <p className="ml-[4.5rem] pb-10 pt-4 text-white">
+      <p className="pb-10 pt-4 text-center text-white md:ml-[4.5rem] md:text-left">
         &copy; 2024 Aufgabe. All rights reserved
       </p>
     </footer>
