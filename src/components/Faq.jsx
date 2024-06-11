@@ -40,7 +40,7 @@ function FaqItem({ question, answer, isOpen, toggleOpen }) {
         />
       </div>
       {isOpen && (
-        <p className="-mt-2 bg-solutionBg py-6 text-xs text-gray-700 transition-all duration-300">
+        <p className="-mt-2 bg-solutionBg py-6 text-xs text-gray-700 transition-all duration-300 md:text-base">
           {answer}
         </p>
       )}
