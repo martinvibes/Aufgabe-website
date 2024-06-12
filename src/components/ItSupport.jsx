@@ -18,11 +18,11 @@ const ItSupport = () => {
         />
         {/* Text Overlay */}
         <div className="absolute inset-0 z-20 flex items-center justify-start">
-          <div className="z-10 ml-[72px] py-9 text-white">
-            <h1 className="text-font40 font-bold">
+          <div className="z-10 p-8 py-9 text-white md:ml-[72px]">
+            <h1 className="text-[1.6rem] font-bold md:text-font40">
               Comprehensive IT Support Services.
             </h1>
-            <p className="py-2 text-font20 font-normal">
+            <p className="py-1 text-[1.13rem] font-normal md:py-2 md:text-font20">
               Reliable Solutions to Keep Your Business Running Smoothly
             </p>
           </div>
@@ -63,7 +63,7 @@ function SupportSolutions() {
         </div>
 
         <img
-          className="text-center md:order-1 lg:order-2 lg:mt-0 lg:pr-7 xl:pr-0"
+          className="px-8 pt-8 text-center md:order-1 md:px-0 md:pt-0 lg:order-2 lg:mt-0 lg:pr-7 xl:pr-0"
           src={itSupportHero2}
           alt="image support"
         />
@@ -75,7 +75,7 @@ function SupportSolutions() {
 function SupportSolutionsSec() {
   return (
     <div className="mb-20 mt-20 flex items-center justify-center">
-      <div className="grid grid-cols-1 space-x-20 px-8 md:grid-cols-1 lg:grid-cols-2">
+      <div className="grid grid-cols-1 px-8 md:grid-cols-1 md:space-x-20 lg:grid-cols-2">
         <div className="">
           <img className="" src={itSupportHero3} alt="image support" />
         </div>
@@ -120,16 +120,16 @@ function SupportSolutionsSec() {
 
 const CyberMatters = () => {
   return (
-    <div className="my-[60px] flex items-center justify-center">
-      <div className="mx-auto w-chooseUs">
-        <div className="text-center">
+    <div className="my-[40px] flex items-center justify-center md:my-[60px]">
+      <div className="mx-auto md:w-chooseUs">
+        <div className="px-8 text-center">
           <h1 className="text-font32 font-bold">Why Cybersecurity Matters</h1>
           <p className="text-font24 text-trustedH1">
             Innovative solutions to secure and empower your business.
           </p>
         </div>
 
-        <div className="inset-2 grid grid-cols-1 justify-center gap-3 px-12 md:grid-cols-2 lg:px-0">
+        <div className="inset-2 grid grid-cols-1 justify-center gap-3 px-8 md:grid-cols-2 md:px-12 lg:px-0">
           <div className="my-5">
             <img src={cloud} alt="cloud upload icon" />
             <h1 className="my-3 text-font24 font-bold text-midBlack">
@@ -181,17 +181,17 @@ const CyberMatters = () => {
 
 function ReliableIt() {
   return (
-    <div className="relative mx-[4.5rem] mb-16 mt-12">
-      <div className="w-full rounded-lg bg-gradient-to-r from-linear1 to-linear2 py-32"></div>
+    <div className="relative mx-8 mb-16 md:mx-[4.5rem] md:mt-32">
+      <div className="w-full rounded-lg bg-gradient-to-r from-linear1 to-linear2 py-44"></div>
       <div className="absolute inset-0">
         <div className="py-8 text-center text-white">
-          <h1 className="text-center text-font40 font-bold">
+          <h1 className="text-center text-[1.7rem] font-bold md:text-font40">
             Ready To Get Reliable IT Support?
           </h1>
-          <p className="py-2 text-font20 font-normal">
+          <p className="text-font20 font-normal md:py-2">
             Contact Us Today to Discuss Your IT Support Needs
           </p>
-          <button className="mt-5 h-heroBtnH w-heroBtnW whitespace-nowrap rounded-lg border-2 text-font20 font-medium transition-all duration-500 ease-in-out hover:border-btnHover hover:bg-btnHover">
+          <button className="mt-5 whitespace-nowrap rounded-lg border-2 bg-navBtn p-0 px-4 py-2 text-font20 font-medium md:h-heroBtnH md:w-heroBtnW">
             Get Started
           </button>
         </div>
