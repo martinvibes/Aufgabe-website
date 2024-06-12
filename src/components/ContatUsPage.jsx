@@ -7,8 +7,10 @@ const ContatUsPage = () => {
         <img className="mt-20 w-full" src={contactHero} alt="hero section" />
         <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
         <div className="absolute inset-0 z-20">
-          <div className="my-5 pt-20 text-center text-white">
-            <h1 className="text-center text-font40 font-bold">Contact Us</h1>
+          <div className="zmy-5 pt-12 text-center text-white">
+            <h1 className="text-center text-font32 font-bold lg:text-font40">
+              Contact Us
+            </h1>
             <p className="py-2 text-font20 font-normal">
               Get in Touch with Our Team
             </p>
@@ -32,6 +34,7 @@ function ContactForm() {
             className="w-full rounded-lg border px-2 py-4 text-font24"
             type="text "
             placeholder="First Name"
+            required
           />
         </div>
         <div className="block w-full md:ml-8 md:mt-3">
@@ -42,6 +45,7 @@ function ContactForm() {
             className="w-full rounded-lg border px-2 py-4 text-font24"
             type="text"
             placeholder="Last Name"
+            required
           />
         </div>
       </div>
@@ -51,8 +55,9 @@ function ContactForm() {
         </label>
         <input
           className="w-full rounded-lg border px-2 py-4 text-font24"
-          type=" text"
+          type="email"
           placeholder="Email Address"
+          required
         />
       </div>
       <div className="my-7">
@@ -62,6 +67,7 @@ function ContactForm() {
           placeholder="Message"
           rows={11}
           cols={30}
+          required
         />
       </div>
       <button
