@@ -22,7 +22,7 @@ export default {
         sm3: { min: "300px" },
       },
       backgroundImage: {
-        "hero-side": "url('../src/images/hero-side.png')", // If in public folder
+        "hero-side": "url('./src/images/about/expert01.svg')", // If in public folder
       },
       fontFamily: {
         sans: ["Lato", "sans-serif"],

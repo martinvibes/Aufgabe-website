@@ -1,4 +1,5 @@
 import cloudHero from "../images/cloudServices/cloudHero.svg";
+import cloudChange from "../images/cloudServices/cloud-change.jpg";
 import assessment from "../images/cloudServices/assessment.png";
 import azure from "../images/cloudServices/azure.png";
 import dockerServices from "../images/cloudServices/dockerServices.png";
@@ -15,7 +16,12 @@ const CloudServices = () => {
         <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
         {/* Image */}
         <img
-          className="sm3:mt-20 relative z-0 w-full md:mt-20"
+          className="sm3:mt-20 relative z-0 w-full sm:hidden md:mt-20"
+          src={cloudChange}
+          alt="hero section"
+        />
+        <img
+          className="sm3:mt-20 relative z-0 hidden w-full sm:block md:mt-20"
           src={cloudHero}
           alt="hero section"
         />

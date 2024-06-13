@@ -1,4 +1,5 @@
 import caseHero from "../images/caseStudyHero.svg";
+import caseChange from "../images/case-study-change.jpg";
 import amdLogo from "../images/box-icon-1.svg";
 import fedEx from "../images/box-icon2.svg";
 import microSoft from "../images/microsoft-logo.png";
@@ -10,12 +11,17 @@ function CaseStudy() {
       <div className="relative">
         <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
         <img
-          className="relative z-0 my-20 w-full"
+          className="relative z-0 my-20 w-full sm:hidden"
+          src={caseChange}
+          alt="hero section"
+        />
+        <img
+          className="relative z-0 my-20 hidden w-full sm:block"
           src={caseHero}
           alt="hero section"
         />
         <div className="absolute inset-0 z-20 flex items-center justify-center">
-          <div className="my-5 py-9 text-center text-white">
+          <div className="my-5 px-8 py-9 text-center text-white sm:px-0">
             <h1 className="text-center text-[1.68rem] font-bold md:text-font40">
               Casestudies
             </h1>

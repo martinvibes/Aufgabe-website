@@ -1,5 +1,6 @@
 import itSupportHero3 from "../images/images-test.png";
 import itSupportHero from "../images/it-support.svg";
+import itSupportHeroChange from "../images/it-support-change.jpg";
 import pause from "../images/pause.svg";
 import itSupportHero2 from "../images/it-support2.svg";
 import heroSide from "../images/hero-side.png";
@@ -12,17 +13,22 @@ const ItSupport = () => {
         <div className="absolute inset-0 z-10 bg-linear2 opacity-75"></div>
         {/* Image */}
         <img
-          className="relative z-0 mt-20 w-full"
+          className="relative z-0 mt-20 w-full sm:hidden"
+          src={itSupportHeroChange}
+          alt="hero section"
+        />
+        <img
+          className="relative z-0 mt-20 hidden w-full sm:block"
           src={itSupportHero}
           alt="hero section"
         />
         {/* Text Overlay */}
         <div className="absolute inset-0 z-20 flex items-center justify-start">
           <div className="z-10 p-8 py-9 text-white md:ml-[72px]">
-            <h1 className="text-[1.6rem] font-bold md:text-font40">
+            <h1 className="text-font32 font-bold sm:text-font40">
               Comprehensive IT Support Services.
             </h1>
-            <p className="py-1 text-[1.13rem] font-normal md:py-2 md:text-font20">
+            <p className="py-1 text-font20 font-normal md:py-2">
               Reliable Solutions to Keep Your Business Running Smoothly
             </p>
           </div>
