@@ -28,7 +28,7 @@ const CloudServices = () => {
         {/* Text Overlay */}
         <div className="absolute inset-0 z-20 flex items-center justify-start px-8 md:px-0">
           <div className="z-10 py-9 text-white md:ml-[72px] md:w-[43.5rem]">
-            <h1 className="whitespace-nowrap text-[1.8rem] font-bold md:text-font40">
+            <h1 className="whitespace-nowrap text-[1.6rem] font-bold md:text-font40">
               Seamless Cloud Migration.
             </h1>
             <p className="sm3:text-base sm5:text-[1.1rem] sm5:py-2 py-1 pb-3 font-normal leading-none md:text-font24 md:leading-4">
