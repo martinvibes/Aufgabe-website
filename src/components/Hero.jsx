@@ -24,7 +24,7 @@ function Hero() {
             src={aws}
             alt="aws logo"
           />
-          <h1 className="text-2xl font-bold sm:text-font40 md:text-3xl">
+          <h1 className="text-xl font-bold sm:text-font40 md:text-3xl">
             Unlock Ultimate Security and <br /> Performance with Our Cloud
             Solutions.
           </h1>
