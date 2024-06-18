@@ -153,14 +153,14 @@ function OurApproach() {
 
 function FourBoxesWithImage() {
   return (
-    <div className="container mx-auto p-4">
-      <div className="gri mx-16 my-2 grid gap-4 md:grid-cols-1 md:text-center lg:grid-cols-1 lg:text-left xl:grid-cols-3">
+    <div className="mx-auto p-4">
+      <div className="mx-8 my-2 grid gap-4 text-center sm:mx-16 md:grid-cols-1 lg:grid-cols-1 lg:text-left xl:grid-cols-3">
         <div className="lg:flex lg:items-center lg:justify-center xl:block">
-          <div className="p-4">
+          <div className="sm:p-4">
             <h1 className="text-font24 font-bold">
               Risk Assessment and Analysis
             </h1>
-            <p className="text-font20 font-normal leading-9">
+            <p className="text-font20 font-normal sm:leading-9">
               We begin by conducting a <br /> comprehensive risk assessment to{" "}
               <br /> identify potential vulnerabilities and <br /> threats to
               our clients&#39; IT <br />
@@ -169,11 +169,11 @@ function FourBoxesWithImage() {
               tailored cybersecurity solutions.
             </p>
           </div>
-          <div className="mt-2 p-4 lg:mt-12">
+          <div className="mt-4 p-4 sm:mt-2 lg:mt-12">
             <h1 className="text-font24 font-bold">
               Customized Security Solutions
             </h1>
-            <p className="text-font20 font-normal leading-9">
+            <p className="text-font20 font-normal sm:leading-9">
               Based on the findings of our risk <br /> assessment, we design
               customized <br />
               security solutions that address our <br /> clients&#39; specific
@@ -196,7 +196,7 @@ function FourBoxesWithImage() {
         <div className="text-center md:ml-16 lg:flex lg:items-center lg:justify-center lg:text-left xl:block">
           <div className="p-4">
             <h1 className="text-font24 font-bold">Proactive Monitoring</h1>
-            <p className="text-font20 font-normal leading-9">
+            <p className="text-font20 font-normal sm:leading-9">
               We deploy advanced monitoring <br /> tools and technologies to{" "}
               <br /> continuously monitor our clients&lsquo; IT <br />{" "}
               environments for suspicious <br /> activities and potential
@@ -205,9 +205,9 @@ function FourBoxesWithImage() {
             </p>
           </div>
 
-          <div className="p-4 lg:mt-12">
+          <div className="p-4 lg:mt-10">
             <h1 className="text-font24 font-bold">Continuous Improvement</h1>
-            <p className="text-font20 font-normal leading-9">
+            <p className="text-font20 font-normal">
               Cybersecurity threats are constantly <br /> evolving, so we
               continuously monitor <br /> industry trends and emerging threats{" "}
               <br /> to ensure that our clients&#39; security <br /> measures
