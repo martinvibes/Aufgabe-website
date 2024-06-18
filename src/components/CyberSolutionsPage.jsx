@@ -206,7 +206,9 @@ function FourBoxesWithImage() {
           </div>
 
           <div className="p-4 lg:mt-10">
-            <h1 className="text-font24 font-bold">Continuous Improvement</h1>
+            <h1 className="whitespace-nowrap text-font24 font-bold">
+              Continuous Improvement
+            </h1>
             <p className="text-font20 font-normal">
               Cybersecurity threats are constantly <br /> evolving, so we
               continuously monitor <br /> industry trends and emerging threats{" "}
